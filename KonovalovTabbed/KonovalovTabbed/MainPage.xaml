@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:KonovalovTabbed;assembly=KonovalovTabbed"
+             x:Class="KonovalovTabbed.MainPage">
+
+
+    <TabbedPage.Children>
+        <local:Talv/>
+        <local:Kevad/>
+        <local:Sugis/>
+        <local:Suvi/>
+    </TabbedPage.Children>
+</TabbedPage>

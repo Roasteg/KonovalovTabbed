@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="September"
+             x:Class="KonovalovTabbed.September">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Kahjuks, pyhad ei ole"
+                       FontSize="44"
+                       Margin="40"
+                       
+                       />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
