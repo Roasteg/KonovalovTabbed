@@ -10,6 +10,8 @@ namespace KonovalovTabbed
         {
             InitializeComponent();
 
+            this.UserAppTheme = OSAppTheme.Dark;
+
             MainPage = new MainPage();
         }
 

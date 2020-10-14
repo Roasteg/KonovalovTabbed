@@ -4,11 +4,13 @@
              Title="September"
              x:Class="KonovalovTabbed.September">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout x:Name="b">
             <StackLayout>
                 <Label Text="Kahjuks, pyhad ei ole"
                        FontSize="44"
                        Margin="40"
+                       TextColor="White"
+                       x:Name="a"
                        
                        />
             </StackLayout>

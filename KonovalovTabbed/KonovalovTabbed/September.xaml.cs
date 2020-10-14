@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KonovalovTabbed.ColorPicker;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,11 @@ namespace KonovalovTabbed
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class September : ContentPage
     {
+        ColPick cp = new ColPick();
         public September()
         {
             InitializeComponent();
         }
+        
     }
 }
