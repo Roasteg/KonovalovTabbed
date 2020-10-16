@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,11 +23,12 @@ namespace KonovalovTabbed
             pyha2.GestureRecognizers.Add(lbl2);
             var lbl3 = new TapGestureRecognizer();
             lbl3.Tapped += Lbl3_Tapped;
-            pyha2.GestureRecognizers.Add(lbl3);
+            pyha3.GestureRecognizers.Add(lbl3);
         }
         private void Lbl3_Tapped(object sender, EventArgs e)
         {
-            DisplayAlert("Pidupaev", "See pidu toimub 26. detsember", "Ok");
+           DisplayAlert("Pidupaev", "See pidu toimub 26. detsember", "Ok");
+           
         }
 
         private void Lbl2_Tapped(object sender, EventArgs e)

@@ -6,13 +6,13 @@
     <ContentPage.Content>
         <StackLayout x:Name="b">
             <StackLayout>
-                <Label Text="Kahjuks, pyhad ei ole"
+                <Label Text="Kahjuks, pühad ei ole"
                        FontSize="44"
                        Margin="40"
-                       TextColor="White"
-                       x:Name="a"
-                       
+
+                       x:Name="a"               
                        />
+                <Image Source ="leaf.png"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

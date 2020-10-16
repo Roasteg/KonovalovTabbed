@@ -23,6 +23,7 @@
                    Margin="6"
                    Padding="10"
                 />
+            <Image Source="present.png"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -5,11 +5,12 @@
              x:Class="KonovalovTabbed.November">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Kahjuks, pyhad ei ole"
+            <Label Text="Kahjuks, pühad ei ole"
                        FontSize="44"
                        Margin="40"
                        
                        />
+            <Image Source ="leaf.png"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
