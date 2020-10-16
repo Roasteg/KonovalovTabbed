@@ -1,6 +1,5 @@
-﻿using KonovalovTabbed.ColorPicker;
-using System;
-using System.Collections.Generic;
+﻿
+using System;using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +12,6 @@ namespace KonovalovTabbed
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class September : ContentPage
     {
-        ColPick cp = new ColPick();
         public September()
         {
             InitializeComponent();

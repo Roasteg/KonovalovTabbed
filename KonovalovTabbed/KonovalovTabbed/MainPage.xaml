@@ -7,7 +7,6 @@
             x:Name="tabz">
 
     <TabbedPage.Children>
-        <local:Settings/>
         <local:Talv/>
         <local:Kevad/>
         <local:Sugis/>
